@@ -5,11 +5,6 @@
 3. 在删除数据的时候也可以在页面内部实现删除功能,删除成功后再调用$getList方法;不过本人更推荐上一种方法,更方便快捷
 4. 处理额外提供的props和defineExpose,其他的都可以参考ant-design-table
 5. 特别说明 data和columns为必要props
-6. 获取列表数据接口返回的参数为
-            {
-                data: [],
-                t: 101,
-            }
 ```
 # 额外提供的props和defineExpose
 1. props
