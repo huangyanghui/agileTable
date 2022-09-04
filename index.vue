@@ -106,6 +106,7 @@
   }
   //   删除
   const $delApi = async (key?: any) => {
+      if(!props.delApi) return;
       loading.value = true
       await props.delApi(key)
       message.success('删除成功');
